@@ -12,6 +12,9 @@ int main()
 	scanf("%d", &term);
 	
 	f = data_check(amount, term);
+	if (f) {
+		printf("Your deposit is %.2f\n", calculate_deposit(amount, term));
+	}
 	
 	return 0;
 }
