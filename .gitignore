@@ -1,1 +1,18 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+
 calc
+calc_test
+!bin/
+
+
